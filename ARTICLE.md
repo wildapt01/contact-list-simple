@@ -12,7 +12,7 @@ For the present app, we are using vanilla Javascript (ES6), HTML5 and CSS3. Noth
 
 ### Initial set-up
 
-Let's create the repo first, I called it `contact-list-simple`, a very original repo name... Clone it to your machine and launch it with your favorite editor. Let's fire a terminal in VSC or in a separate and create the skeleton for our app by typing:
+Let's create the repo first, I called it `contact-list-simple`, a very original repo name... Clone it to your machine and launch it with your favorite editor. Let's fire a terminal in VSC or in a separate window and create the skeleton for our app by typing:
 
 ```
 user@PCrig: .../contact-list-simple$ mkdir scripts styling assets
@@ -22,3 +22,9 @@ user@PCrig: .../contact-list-simple$ touch index.html scripts/index.js scripts/d
 In 2 lines, the necessary 3 folders and 4 files are created.
 
 The folder `assets` will host a `favicon` file and an image file for the background. I prefer having a favicon just to avoid that pesky 404 error in the browser when Chrome does not find it. The folder `scripts` will have all the source code obviously, and `styling` the CSS files. Nothing new here, just plain and simple organisation.
+
+Copy your favorite favicon and image in PNG format into the `assets` folder. Open `index.html` to start the page and linking stuff.
+
+```html
+
+```
