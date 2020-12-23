@@ -19,11 +19,11 @@ mkdir scripts styling assets
 touch index.html scripts/index.js scripts/data.js scripts/input-validation.js styling/style.css
 ```
 
-In 2 lines, the necessary 3 folders and 4 files are created.
+In 2 lines, the necessary 3 folders and 5 files are created.
 
 The folder `assets` will host a `favicon` file and an image file for the background. I prefer having a favicon just to avoid that pesky 404 error in the browser when Chrome does not find it. The folder `scripts` will have all the source code obviously, and `styling` the CSS files. Nothing new here, just plain and simple organisation.
 
-Copy your favorite favicon and image in PNG format into the `assets` folder. Open `index.html` to start the page and linking stuff. By typing a bang `!` in VSC, we have the basic HTML code for our page, like so:
+Copy your favorite favicon and image in PNG format into the `assets` folder. Open `index.html` to start the page and linking stuff. By typing a bang `!` in VSC we have the basic HTML code for our page, like so:
 
 ```html
 <!DOCTYPE html>
@@ -37,4 +37,4 @@ Copy your favorite favicon and image in PNG format into the `assets` folder. Ope
 </html>
 ```
 
-In the `<title>` tag, we replace "Document" with our title: "My Contact List". In the `<body>` tag, we'll add `<h2>This is working!</h2>` to check that our page correctly displays in the browser. Finally, we link the code and style files as well as the files in `assets`, a font from Google Fonts and access to the icons in FontAwesome, our HTML should look like this:
+In the `<title>` tag, we replace "Document" with our title: "My Contact List". In the `<body>` tag, we'll add `<h2>This is working!</h2>` to check that our page correctly displays in the browser. Finally, we link the code and style files as well as the files in `assets` and the Source Sans Pro font from Google Fonts, our HTML should look like this:
