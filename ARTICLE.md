@@ -19,11 +19,9 @@ mkdir scripts styling assets
 touch index.html scripts/index.js scripts/data.js scripts/input-validation.js styling/style.css
 ```
 
-In 2 lines, the necessary 3 folders and 5 files are created.
+In 2 lines, the necessary 3 folders and 5 files are created. The folder `assets` will host an image file for the background. The folder `scripts` will have all the source code obviously, and `styling` the CSS files. Nothing new here, just plain and simple organisation.
 
-The folder `assets` will host a `favicon` file and an image file for the background. I prefer having a favicon just to avoid that pesky 404 error in the browser when Chrome does not find it. The folder `scripts` will have all the source code obviously, and `styling` the CSS files. Nothing new here, just plain and simple organisation.
-
-Copy your favorite favicon and image in PNG format into the `assets` folder. Open `index.html` to start the page and linking stuff. By typing a bang `!` in VSC we have the basic HTML code for our page, like so:
+Copy your favorite image in PNG format into the `assets` folder. I added a favicon just because its absence will pop an error in the browser (Chrome) and my OCD side doesn't like errors... Open `index.html` to start the page and linking stuff. By typing a bang `!` in VSC we have the basic HTML skeleton for our page, like so:
 
 ```html
 <!DOCTYPE html>

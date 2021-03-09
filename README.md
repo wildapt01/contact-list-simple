@@ -13,5 +13,5 @@ Simple contact list app.
 
 - User input of a new contact.
 - User can read, update and delete a contact (classic CRUD).
-- The contact list can be search for a contact.
+- The contact list can be searched for a contact.
 - User inputs are checked for validity.
