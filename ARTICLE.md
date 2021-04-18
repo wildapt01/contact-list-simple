@@ -35,4 +35,34 @@ Copy your favorite image in PNG format into the `assets` folder. I added a favic
 </html>
 ```
 
-In the `<title>` tag, we replace "Document" with our title: "My Contact List". In the `<body>` tag, we'll add `<h2>This is working!</h2>` to check that our page correctly displays in the browser. Finally, we link the code and style files as well as the files in `assets` and the Source Sans Pro font from Google Fonts, our HTML should look like this:
+In the `<title>` tag, we replace "Document" with our title: "My Contact List". In the `<body>` tag, we'll add `<h2>This is working!</h2>` to check that our page correctly displays in the browser. Finally, we link the code and style files as well as the files in `assets` and the Source Sans Pro font from Google Fonts, our `index.html` file should look like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link sizes="32x32" href="/assets/" rel="icon" type="image/png" />
+    <!-- Source Sans Pro font from Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Local style sheet -->
+    <link href="styling/style.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="scripts/index.js" type="module" defer></script>
+
+    <title>My Contact List</title>
+  </head>
+  <body>
+    <h2>This is working!</h2>
+  </body>
+</html>
+```
+
+We are now in need of some data to create the contact cards. As this is the simplest version, we're going to work with static dummy data. Feel free to use your prefered way or even type a dozen contacts in an array in `data.js`. Being the lazy dude I am, I created the list in [Mockaroo](https://mockaroo.com/) and copied the resulting dummy data in `data.js`.
